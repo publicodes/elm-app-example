@@ -1,0 +1,18 @@
+{
+  "année de naissance": {
+    "question": "Quelle est votre année de naissance ?",
+    "par défaut": 1980
+  },
+  "age": {
+    "titre": "Votre âge",
+    "formule": "2024 - année de naissance"
+  },
+  "etudiant": {
+    "question": "Etes-vous étudiant-e ?",
+    "par défaut": "non"
+  },
+  "etudiant et mineur": {
+    "titre": "Vous êtes étudiant-e et mineur-e",
+    "toutes ces conditions": ["etudiant", "age < 18"]
+  }
+}
